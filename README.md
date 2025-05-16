@@ -6,7 +6,7 @@
 
 ## 📌 About this project
 
-This repository contains the foundation of my professional personal website, currently migrating from React + Vite to a modern stack using **Next.js (App Router)** and **Firebase Firestore** for dynamic content management.
+This repository contains the foundation of my professional website, currently migrating from React + Vite to a modern stack using **Next.js (App Router)** and **Firebase Firestore** for dynamic content management.
 
 The main goal is to improve performance, scalability, and maintainability by leveraging **Server Side Rendering (SSR)** and Firebase’s flexibility to update data without redeploying.
 
@@ -25,14 +25,16 @@ The project follows a **Modular Architecture with Next.js App Router**, enabling
 
 ## 🛠️ Main Technologies
 
-| Technology       | Purpose                                                           |
-| ---------------- | ----------------------------------------------------------------- |
-| **JavaScript**   | Core programming language for client and server-side logic        |
-| **Next.js**      | React framework with SSR, static generation, and advanced routing |
-| **Firebase**     | Serverless backend: Firestore for dynamic data                    |
-| **Vercel**       | Hosting platform with continuous deployment                       |
-| **React**        | UI building library                                               |
-| **Tailwind CSS** | Fast and responsive styling                                       |
+| Technology       | Purpose                                                            |
+| ---------------- | ------------------------------------------------------------------ |
+| **JavaScript**   | Core programming language for client and server-side logic         |
+| **Next.js**      | React framework with SSR, static generation, and advanced routing  |
+| **Firebase**     | Serverless backend: Firestore for dynamic data                     |
+| **Vercel**       | Hosting platform with continuous deployment                        |
+| **React**        | UI building library                                                |
+| **Tailwind CSS** | Fast and responsive styling                                        |
+| **ESLint**       | Code quality and consistency tool through static analysis          |
+| **Turbopack**    | Ultra-fast incremental bundler and build tool for Next.js projects |
 
 ---
 
@@ -71,6 +73,7 @@ For inquiries or proposals, please contact me:
 
 🌐 [https://lucasoriental.com](https://lucasoriental.com)
 📧 [lucasoriental@gmail.com](mailto:lucasoriental@gmail.com)
+📞 [938 626 826](tel:+351938626826)
 
 ---
 
