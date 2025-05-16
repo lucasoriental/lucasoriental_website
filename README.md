@@ -73,7 +73,7 @@ For inquiries or proposals, please contact me:
 
 🌐 [https://lucasoriental.com](https://lucasoriental.com)
 📧 [lucasoriental@gmail.com](mailto:lucasoriental@gmail.com)
-📞 [938 626 826](tel:+351938626826)
+📞 [+351 938626826](tel:+351938626826)
 
 ---
 
