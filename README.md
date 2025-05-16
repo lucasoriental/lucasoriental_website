@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Lucas Oriental dos Santos - Professional Website (Migration to Next.js + Firebase)
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)&nbsp;![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)&nbsp;![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)&nbsp;![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)&nbsp;![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)&nbsp;![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)&nbsp;![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)&nbsp;![Turbopack](https://img.shields.io/badge/Turbopack-000000?style=for-the-badge&logo=turborepo&logoColor=white)
 
-First, run the development server:
+---
+
+## 📌 About this project
+
+This repository contains the foundation of my professional personal website, currently migrating from React + Vite to a modern stack using **Next.js (App Router)** and **Firebase Firestore** for dynamic content management.
+
+The main goal is to improve performance, scalability, and maintainability by leveraging **Server Side Rendering (SSR)** and Firebase’s flexibility to update data without redeploying.
+
+---
+
+## 🏗️ Software Architecture
+
+The project follows a **Modular Architecture with Next.js App Router**, enabling:
+
+- Clear separation and reuse of components
+- Dedicated layouts per section (Clients / Companies)
+- Static and dynamic routing
+- Centralized data management via Firebase Firestore
+
+---
+
+## 🛠️ Main Technologies
+
+| Technology       | Purpose                                                           |
+| ---------------- | ----------------------------------------------------------------- |
+| **JavaScript**   | Core programming language for client and server-side logic        |
+| **Next.js**      | React framework with SSR, static generation, and advanced routing |
+| **Firebase**     | Serverless backend: Firestore for dynamic data                    |
+| **Vercel**       | Hosting platform with continuous deployment                       |
+| **React**        | UI building library                                               |
+| **Tailwind CSS** | Fast and responsive styling                                       |
+
+---
+
+## 🗂️ Project Structure (src/app) (GOAL)
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+firebase/                    # Firebase configuration
+src/
+├── app/
+│   ├── layout.jsx           # Base layout (root)
+│   ├── page.jsx             # Home page
+│   ├── freelance/           # Clients area (freelance)
+│   │   ├── layout.jsx       # Exclusive freelance layout
+│   │   └── page.jsx         # Main freelance page
+│   └── hiring/              # Companies area
+│       ├── layout.jsx       # Exclusive hiring layout
+│       └── page.jsx         # Main hiring page
+├── components/              # Reusable components
+└── styles/                  # Global styles and Tailwind utilities
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🎯 Project Goals
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Migrate the current site [lucasoriental.com](https://lucasoriental.com), built with React + Vite, to Next.js with a scalable and modern architecture.
+- Implement dynamic content on the site using Firestore, eliminating the need to redeploy for content updates.
+- Host the project on Vercel with automatic deployment connected to GitHub.
+- Maintain clean, modular code ready for future growth and integrations.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📞 Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+For inquiries or proposals, please contact me:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🌐 [https://lucasoriental.com](https://lucasoriental.com)
+📧 [lucasoriental@gmail.com](mailto:lucasoriental@gmail.com)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© 2025 Lucas Oriental. All rights reserved.
