@@ -38,10 +38,9 @@ The project follows a **Modular Architecture with Next.js App Router**, enabling
 
 ---
 
-## 🗂️ Project Structure (src/app) (GOAL)
+## 🗂️ Project Structure (src/app) (Changeable and uncertain)
 
 ```bash
-firebase/                    # Firebase configuration
 src/
 ├── app/
 │   ├── layout.jsx           # Base layout (root)
@@ -53,6 +52,10 @@ src/
 │       ├── layout.jsx       # Exclusive hiring layout
 │       └── page.jsx         # Main hiring page
 ├── components/              # Reusable components
+├── hooks/                   # For usable Hooks
+├── i18n/                    # For translation
+├── lib/                     # Some connections and utilities
+├── store/                   # For global state (Zustand)
 └── styles/                  # Global styles and Tailwind utilities
 ```
 
