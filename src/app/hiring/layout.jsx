@@ -4,7 +4,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <header>Hiring Header</header>
-      <body>{children}</body>
+      <section>{children}</section>
       <footer>Hiring Footer</footer>
     </>
   );
@@ -13,5 +13,5 @@ const Layout = ({ children }) => {
 export default Layout;
 
 Layout.propTypes = {
-  children: PropTypes.object.isRequired,
+  children: PropTypes.node.isRequired,
 };

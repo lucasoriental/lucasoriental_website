@@ -1,15 +1,17 @@
 import PropTypes from "prop-types";
 
-export default function Layout({ children }) {
+const Layout = ({ children }) => {
   return (
     <>
       <header>Freelancer Header</header>
-      <body>{children}</body>
+      <section>{children}</section>
       <footer>Freelancer Footer</footer>
     </>
   );
 }
 
+export default Layout;
+
 Layout.propTypes = {
-  children: PropTypes.object.isRequired,
+  children: PropTypes.node.isRequired,
 };
