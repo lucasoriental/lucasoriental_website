@@ -3,6 +3,8 @@
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "@/components/ui/LanguageSwitcher";
 import Link from "next/link";
+import ProjectsSection from "./sections/projects";
+import BlogSection from "./sections/blog";
 
 const FreelanceSection = () => {
   const t = useTranslations("HomePage");
@@ -13,8 +15,10 @@ const FreelanceSection = () => {
       <p>{t("welcome")}</p>
       <Link href="/hiring">Hiring</Link>
       <Link href="/">Home</Link>
+      <ProjectsSection />
+      <BlogSection />
     </div>
   );
-}
+};
 
 export default FreelanceSection;
